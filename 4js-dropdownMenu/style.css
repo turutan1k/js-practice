@@ -11,9 +11,8 @@
     padding:10px;
     height:40px;
     width: 120px;
-    background-color: orangered;
+    background-color: green;
     position: absolute;
     cursor: pointer;
     border: 1px solid black;
-
 }
