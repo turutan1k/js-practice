@@ -1,0 +1,19 @@
+.menu-item{
+    margin:10px;
+    background-color: orange;
+    border: 1px solid black;
+    display: inline-block;
+    position:relative;
+    cursor: pointer;
+}
+
+.menu-item .submenu{
+    padding:10px;
+    height:40px;
+    width: 120px;
+    background-color: orangered;
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid black;
+
+}
