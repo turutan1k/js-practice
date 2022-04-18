@@ -1,7 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 .slideshow-container {
     min-width: 1000px;
     position: relative;
     margin: auto;
+}
+.slide-content {
+    max-width: 1920px;
+    max-height: 1080px;
+}
+.mySlides {
+    display: none;
 }
 
 .prev,
@@ -31,6 +42,16 @@
 
 .text {
     color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -39,8 +60,8 @@
 
 .dot {
     cursor: pointer;
-    height: 13px;
-    width: 13px;
+    height: 15px;
+    width: 15px;
     margin: 0 2px;
     background-color: #bbb;
     border-radius: 50%;
@@ -60,7 +81,20 @@
     animation-duration: 1.5s;
 }
 
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 @keyframes fade {
-    from{opacity:.4}
-    to{opacity:1}
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
 }
