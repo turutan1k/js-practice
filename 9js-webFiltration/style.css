@@ -1,0 +1,39 @@
+.container {
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+}
+#filterInput {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px 20px 12px 5px;
+    border: 1px solid red;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+
+#myUl {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUl li a {
+    border: 1px solid black;
+    margin-top: -1px;
+    background-color: rgb(255, 203, 203);
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+
+#myUl li a.header {
+    background-color: rgb(255, 146, 146);
+    cursor: default;
+}
+
+#myUl li a:hover:not(.header) {
+    background-color: rgb(255, 114, 114);
+}
