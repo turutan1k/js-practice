@@ -10,6 +10,15 @@
 </head>
 
 <body>
+    <h1>Converter</h1>
+    <p>
+        <label>BY</label>
+        <input type="number" id="inputdol" placeholder="BY" oninput="moneyConverter(this.value)"
+            onchange="moneyConverter(this.value)">
+    </p>
+    <p>RUB: <span id="outputrub"></span></p>
+    <p>USD: <span id="outputdol"></span></p>
+
     <script src="script.js"></script>
 </body>
 
